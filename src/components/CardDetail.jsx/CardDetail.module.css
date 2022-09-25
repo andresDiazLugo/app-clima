@@ -1,0 +1,25 @@
+.container{
+    /* background-color:var(--color-navegacion); */
+width: 25rem;
+height: 30rem;
+margin: 10rem auto;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+-webkit-box-shadow: 15px 17px 235px 181px rgba(250,249,249,1);
+-moz-box-shadow: 15px 17px 235px 181px rgba(250,249,249,1);
+box-shadow: 15px 17px 235px 181px rgba(250,249,249,1);
+}
+.container h2 {
+    background-color:#ff6d00;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+}
+.containerHumedad{
+    display: flex;
+    gap: 1rem;
+}

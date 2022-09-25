@@ -1,0 +1,23 @@
+@import  "./normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  
+  margin: 0;
+  margin-bottom: 40px;
+}
+:root{
+  font-family:'Carter One', cursive;
+  background-color: #03071e;
+  --color-navegacion:#2ec4b6;
+  
+
+}

@@ -1,0 +1,11 @@
+.section{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding: 2rem;
+    -webkit-box-shadow: 8px 9px 10px 7px rgba(136,179,172,1);
+    -moz-box-shadow: 8px 9px 10px 7px rgba(136,179,172,1);
+    box-shadow: 8px 9px 10px 7px rgba(136,179,172,1);
+}
