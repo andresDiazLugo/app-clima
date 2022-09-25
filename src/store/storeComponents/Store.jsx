@@ -17,7 +17,7 @@ export default function Store(props) {
   const getClima = (ciudad)=>{
       // const [data] = await useFetch(ciudad)
       const apiKEY = import.meta.env.VITE_APP_API_KEY
-      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKEY}&units=metric`)
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKEY}&units=metric`)
       .then(response => response.json())
       .then(data =>{
         
